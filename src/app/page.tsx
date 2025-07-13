@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const sections = {
   about: <About />,
@@ -13,13 +14,13 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const menuItems = [
     { key: "about", label: "About" },
-    { key: "projects", label: "Projects"},
+    { key: "projects", label: "Projects" },
     { key: "contact", label: "Contact" },
   ] as const;
 
   function handleMenuClick(key: keyof typeof sections) {
     setActive(key);
-    setSidebarOpen(false); 
+    setSidebarOpen(false);
   }
 
   return (
@@ -37,7 +38,11 @@ export default function App() {
           stroke="currentColor"
           strokeWidth={2}
         >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
         </svg>
       </button>
 
@@ -78,7 +83,11 @@ export default function App() {
                 stroke="currentColor"
                 strokeWidth={2}
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
 
@@ -121,9 +130,11 @@ export default function App() {
 function About() {
   return (
     <div className="text-center max-w-xl mx-auto">
-      <img
+      <Image
         src="/aysumaharramova.jpg"
         alt="Aysu Maharramova"
+        width={160}
+        height={160}
         className="w-40 h-40 rounded-full mx-auto mb-6 mt-8 shadow-lg object-cover object-[0_90%]"
       />
       <h2 className="text-3xl font-bold mb-4">About Me</h2>
@@ -148,9 +159,11 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/printly.png"
             alt="Printly"
+            width={400}
+            height={160}
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -178,9 +191,11 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/altinyildizclassics.png"
-            alt="altinyildizclassics"
+            alt="Altin Yildiz"
+            width={400}
+            height={160} 
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -211,9 +226,11 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/saytaz.png"
             alt="saytaz"
+            width={400}
+            height={160} 
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -248,9 +265,11 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/apple.png"
             alt="apple"
+           width={400}
+            height={160} 
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -288,9 +307,11 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/papajohns.png"
             alt="papajohns"
+            width={400}
+            height={160} 
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -326,9 +347,11 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/medical.png"
             alt="medical"
+            width={400}
+            height={160} 
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -363,10 +386,12 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/foody.png"
             alt="foody"
-            className="w-full h-40 object-cover object-top"
+           width={400}
+            height={160} 
+            className="w-full h-40 object-cover"
           />
 
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -402,10 +427,12 @@ function Projects() {
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
           style={{ minWidth: "45%", maxWidth: "400px" }}
         >
-          <img
+          <Image
             src="/passport.png"
             alt="passport"
-            className="w-full h-40 object-cover object-top"
+      width={400}
+            height={160} 
+            className="w-full h-40 object-cover"
           />
 
           <div className="p-4 flex flex-col flex-grow justify-between">
