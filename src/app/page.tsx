@@ -139,10 +139,10 @@ function About() {
       />
       <h2 className="text-3xl font-bold mb-4">About Me</h2>
       <p className="leading-relaxed text-base">
-        I'm Aysu Maharramova, a Front-End Developer from Azerbaijan specializing
-        in building modern, responsive, and accessible web apps with React,
-        Next.js, TypeScript, and JavaScript. I enjoy crafting elegant interfaces
-        and continually improving my skills.
+        I&apos;m Aysu Maharramova, a Front-End Developer from Azerbaijan
+        specializing in building modern, responsive, and accessible web apps
+        with React, Next.js, TypeScript, and JavaScript. I enjoy crafting
+        elegant interfaces and continually improving my skills.
       </p>
     </div>
   );
@@ -195,7 +195,7 @@ function Projects() {
             src="/altinyildizclassics.png"
             alt="Altin Yildiz"
             width={400}
-            height={160} 
+            height={160}
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -230,7 +230,7 @@ function Projects() {
             src="/saytaz.png"
             alt="saytaz"
             width={400}
-            height={160} 
+            height={160}
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -268,8 +268,8 @@ function Projects() {
           <Image
             src="/apple.png"
             alt="apple"
-           width={400}
-            height={160} 
+            width={400}
+            height={160}
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -311,7 +311,7 @@ function Projects() {
             src="/papajohns.png"
             alt="papajohns"
             width={400}
-            height={160} 
+            height={160}
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -351,7 +351,7 @@ function Projects() {
             src="/medical.png"
             alt="medical"
             width={400}
-            height={160} 
+            height={160}
             className="w-full h-40 object-cover"
           />
           <div className="p-4 flex flex-col flex-grow justify-between">
@@ -389,8 +389,8 @@ function Projects() {
           <Image
             src="/foody.png"
             alt="foody"
-           width={400}
-            height={160} 
+            width={400}
+            height={160}
             className="w-full h-40 object-cover"
           />
 
@@ -430,8 +430,8 @@ function Projects() {
           <Image
             src="/passport.png"
             alt="passport"
-      width={400}
-            height={160} 
+            width={400}
+            height={160}
             className="w-full h-40 object-cover"
           />
 
