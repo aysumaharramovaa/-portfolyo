@@ -260,6 +260,48 @@ function Projects() {
           </div>
         </div>
 
+        <div
+          className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
+          style={{ minWidth: "45%", maxWidth: "400px" }}
+        >
+          <Image
+            src="/orkhan.png"
+            alt="Orkhan Gurbanli portfolio"
+            width={400}
+            height={160}
+            className="w-full h-40 object-cover"
+          />
+          <div className="p-4 flex flex-col flex-grow justify-between">
+            <h3 className="text-xl font-semibold mb-2">Portfolio</h3>
+            <p className="text-gray-400 text-sm mb-4 flex-grow">
+              For Orkhan Gurbanli’s personal portfolio as a Content Creator &
+              Copywriter. I built a visually appealing website using modern
+              tools like Next.js and TypeScript.
+            </p>
+
+            
+            <div className="flex gap-4">
+              <a
+                href="https://github.com/aysumaharramovaa/orkhanPortfolyo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black px-3 py-1 text-sm rounded hover:bg-gray-200 transition"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://orkhan-portfolyo.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 text-white px-3 py-1 text-sm rounded hover:bg-blue-700 transition"
+              >
+                Live Site
+              </a>
+            </div>
+
+          </div>
+        </div>
+
         {/* Card 4 */}
         <div
           className="bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition flex flex-col overflow-hidden"
