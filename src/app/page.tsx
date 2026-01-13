@@ -528,7 +528,7 @@ function Contact() {
         </a>
       </p>
 
-      <p>
+   <p className=" mb-3">
         LinkedIn:{" "}
         <a
           href="https://www.linkedin.com/in/aysumaharramova/"
