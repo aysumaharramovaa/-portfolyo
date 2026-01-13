@@ -514,10 +514,10 @@ function Contact() {
     <div className="text-center">
       <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
-      <p className="mb-3">📧 Email: aysumeheremovaa@gmail.com</p>
+      <p className="mb-3">Email: aysumeheremovaa@gmail.com</p>
 
       <p className=" mb-3">
-        💻 GitHub:{" "}
+        GitHub:{" "}
         <a
           href="https://github.com/aysumaharramovaa"
           target="_blank"
@@ -529,9 +529,22 @@ function Contact() {
       </p>
 
       <p>
-        💼 LinkedIn:{" "}
+        LinkedIn:{" "}
         <a
           href="https://www.linkedin.com/in/aysumaharramova/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="italic no-underline hover:underline hover:text-blue-500 transition-colors"
+        >
+          aysumaharramova
+        </a>
+      </p>
+
+
+      <p>
+        Discord:{" "}
+        <a
+          href="https://discord.com/users/aysumaharramova"
           target="_blank"
           rel="noopener noreferrer"
           className="italic no-underline hover:underline hover:text-blue-500 transition-colors"
