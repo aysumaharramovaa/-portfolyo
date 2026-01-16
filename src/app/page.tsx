@@ -108,7 +108,6 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {/* Main Content */}
       <main className="flex-1 md:ml-40 p-8 flex justify-center items-center min-h-screen">
         <AnimatePresence mode="wait">
           <motion.div
@@ -279,7 +278,6 @@ function Projects() {
               tools like Next.js and TypeScript.
             </p>
 
-            
             <div className="flex gap-4">
               <a
                 href="https://github.com/aysumaharramovaa/orkhanPortfolyo"
