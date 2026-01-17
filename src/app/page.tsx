@@ -108,7 +108,6 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {/* Main Content */}
       <main className="flex-1 md:ml-40 p-8 flex justify-center items-center min-h-screen">
         <AnimatePresence mode="wait">
           <motion.div
@@ -279,7 +278,6 @@ function Projects() {
               tools like Next.js and TypeScript.
             </p>
 
-            
             <div className="flex gap-4">
               <a
                 href="https://github.com/aysumaharramovaa/orkhanPortfolyo"
@@ -514,10 +512,10 @@ function Contact() {
     <div className="text-center">
       <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
-      <p className="mb-3">📧 Email: aysumeheremovaa@gmail.com</p>
+      <p className="mb-3">Email: aysumeheremovaa@gmail.com</p>
 
       <p className=" mb-3">
-        💻 GitHub:{" "}
+        GitHub:{" "}
         <a
           href="https://github.com/aysumaharramovaa"
           target="_blank"
@@ -528,10 +526,23 @@ function Contact() {
         </a>
       </p>
 
-      <p>
-        💼 LinkedIn:{" "}
+   <p className=" mb-3">
+        LinkedIn:{" "}
         <a
           href="https://www.linkedin.com/in/aysumaharramova/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="italic no-underline hover:underline hover:text-blue-500 transition-colors"
+        >
+          aysumaharramova
+        </a>
+      </p>
+
+
+      <p>
+        Discord:{" "}
+        <a
+          href="https://discord.com/users/aysumaharramova"
           target="_blank"
           rel="noopener noreferrer"
           className="italic no-underline hover:underline hover:text-blue-500 transition-colors"
