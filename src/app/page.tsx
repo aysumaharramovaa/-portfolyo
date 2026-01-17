@@ -542,7 +542,7 @@ function Contact() {
 
       <div className="text-center mt-6">
         <a
-          href="/Aysu Maharramova- FrontEnd Developer.pdf"
+          href="/Aysu Maharramova - FrontEnd Developer.pdf"
           download
           target="_blank"
           rel="noopener noreferrer"
