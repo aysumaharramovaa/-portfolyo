@@ -551,17 +551,17 @@ function Contact() {
         </a>
       </p>
 
-      <div className="text-center mt-6">
-        <a
-          href="/Aysu Maharramova - FrontEnd Developer.pdf"
-          download
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-white text-black px-5 py-2 rounded font-semibold hover:bg-gray-200 transition"
-        >
-          Download CV
-        </a>
-      </div>
+    //  <div className="text-center mt-6">
+      //  <a
+        //  href="/Aysu Maharramova - FrontEnd Developer.pdf"
+          // download
+          // target="_blank"
+       //   rel="noopener noreferrer"
+       //   className="inline-block bg-white text-black px-5 py-2 rounded font-semibold hover:bg-gray-200 transition"
+     //   >
+     //     Download CV
+     //   </a>
+    //  </div>
     </div>
   );
 }
