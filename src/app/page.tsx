@@ -296,7 +296,6 @@ function Projects() {
                 Live Site
               </a>
             </div>
-
           </div>
         </div>
 
@@ -526,7 +525,7 @@ function Contact() {
         </a>
       </p>
 
-   <p className=" mb-3">
+      <p className=" mb-3">
         LinkedIn:{" "}
         <a
           href="https://www.linkedin.com/in/aysumaharramova/"
@@ -537,7 +536,6 @@ function Contact() {
           aysumaharramova
         </a>
       </p>
-
 
       <p>
         Discord:{" "}
@@ -551,17 +549,17 @@ function Contact() {
         </a>
       </p>
 
-    //  <div className="text-center mt-6">
-      //  <a
-        //  href="/Aysu Maharramova - FrontEnd Developer.pdf"
-          // download
-          // target="_blank"
-       //   rel="noopener noreferrer"
-       //   className="inline-block bg-white text-black px-5 py-2 rounded font-semibold hover:bg-gray-200 transition"
-     //   >
-     //     Download CV
-     //   </a>
-    //  </div>
+      {/* <div className="text-center mt-6">
+  <a
+    href="/Aysu Maharramova - FrontEnd Developer.pdf"
+    download
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-white text-black px-5 py-2 rounded font-semibold hover:bg-gray-200 transition"
+  >
+    Download CV
+  </a>
+</div> */}
     </div>
   );
 }
